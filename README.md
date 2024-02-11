@@ -17,10 +17,10 @@ You can continue this indefinitely to generate more numbers in the Fibonacci seq
 
 Mathematically, this can be expressed  with a recurrence relation like this:
 
-F(0) = 0
+'F(0) = 0
 F(1) = 1
-F(n) = F(n-1) + F(n-2) for n > 1
+F(n) = F(n-1) + F(n-2) for n > 1'
 
 Here, F(n) represents the nth number in the Fibonacci sequence. So, to find any specific number in the sequence, this formula is used, provided the values of F(0) and F(1) are known. For example, to find F(5), calculate:
 
-F(5) = F(4) + F(3) = 3 + 2 = 5
+'F(5) = F(4) + F(3) = 3 + 2 = 5'
