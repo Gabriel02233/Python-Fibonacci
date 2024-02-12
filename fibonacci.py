@@ -24,6 +24,8 @@ def main():
         # so you can more easily read the number in your
         # terminal before the next one gets printed.
         time.sleep(0.08)
+        # Prints the computed next number of the Fibonacci
+        # sequence.
         print(c)
         b = a
         a = c
