@@ -1,4 +1,8 @@
 # Fibonacci
+# Author @jakobgraetz
+# (c) Jakob Graetz | 2023 - 2024
+# MIT license
+# Last Update 02/12/2024 (MM/DD/YYYY)
 
 import time
 import sys
