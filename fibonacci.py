@@ -16,6 +16,7 @@ def main():
     a = 1
     b = 1
     while True:
+        # Computes the next number of the sequence.
         c = a + b
         # Optional, but you can set the sleep function
         # so you can more easily read the number in your
