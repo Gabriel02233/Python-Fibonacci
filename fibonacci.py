@@ -17,6 +17,9 @@ def main():
     b = 1
     while True:
         c = a + b
+        # Optional, but you can set the sleep function
+        # so you can more easily read the number in your
+        # terminal before the next one gets printed.
         time.sleep(0.08)
         print(c)
         b = a
