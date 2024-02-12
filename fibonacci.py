@@ -27,6 +27,7 @@ def main():
         # Prints the computed next number of the Fibonacci
         # sequence.
         print(c)
+        # Updates the initial numbers to their new values.
         b = a
         a = c
 
