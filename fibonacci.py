@@ -13,8 +13,10 @@ sys.set_int_max_str_digits(100000)
 
 
 def main():
+    # Initializes the first to numbers. Should stay at
+    # a = 1; b = 0
     a = 1
-    b = 1
+    b = 0
     while True:
         # Computes the next number of the sequence.
         c = a + b
