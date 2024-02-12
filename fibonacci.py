@@ -15,11 +15,11 @@ sys.set_int_max_str_digits(100000)
 def main():
     # Initializes the first to numbers. Should stay at
     # a = 1; b = 0
-    a = 1
-    b = 0
+    a: int = 1
+    b: int = 0
     while True:
         # Computes the next number of the sequence.
-        c = a + b
+        c: int = a + b
         # Optional, but you can set the sleep function
         # so you can more easily read the number in your
         # terminal before the next one gets printed.
