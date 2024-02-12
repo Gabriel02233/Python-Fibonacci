@@ -3,6 +3,8 @@
 import time
 import sys
 
+# Optional, but increases the maximum integer size this
+# script can compute, therefore highly recommended.
 sys.set_int_max_str_digits(100000)
 
 
