@@ -13,6 +13,7 @@ import sys
 sys.set_int_max_str_digits(100000)
 
 
+# Definition of main() function.
 def main():
     # Initializes the first to numbers. Should stay at
     # a = 1; b = 0
