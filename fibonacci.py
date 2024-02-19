@@ -4,7 +4,7 @@
 # MIT license
 # Last Update 02/12/2024 (MM/DD/YYYY)
 
-# Imports, optional, but th
+# Imports, optional, but the
 import time
 import sys
 
