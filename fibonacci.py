@@ -2,7 +2,7 @@
 # Author @jakobgraetz
 # (c) Jakob Graetz | 2023 - 2024
 # MIT license
-# Last Update 02/12/2024 (MM/DD/YYYY)
+# Last Update 03/02/2024 (MM/DD/YYYY)
 
 # Imports, optional, but the optional features
 # depending on them won't work withouth these
