@@ -1,39 +1,25 @@
-# Fibonacci
-# Author @jakobgraetz
-# (c) Jakob Graetz | 2023 - 2024
-# MIT license
-# Last Update 03/02/2024 (MM/DD/YYYY)
-
-# Imports, optional, but the optional features
-# depending on them won't work withouth these
-# imports.
 import time
 import sys
 
-# Optional, but increases the maximum integer size this
-# script can compute, therefore highly recommended.
-sys.set_int_max_str_digits(100000)
+def gerar_fibonacci(n: int) -> list[int]:
+    """Gera os primeiros 'n' números da sequência de Fibonacci."""
+    sequencia_fibonacci = [1, 1]
+    while len(sequencia_fibonacci) < n:
+        proximo_numero = sequencia_fibonacci[-1] + sequencia_fibonacci[-2]
+        sequencia_fibonacci.append(proximo_numero)
+    return sequencia_fibonacci
 
-
-# Definition of main() function.
-def main():
-    # Initializes the first to numbers. Should stay at
-    # a = 1; b = 0
-    a: int = 1
-    b: int = 0
-    while True:
-        # Computes the next number of the sequence.
-        c: int = a + b
-        # Optional, but you can set the sleep function
-        # so you can more easily read the number in your
-        # terminal before the next one gets printed.
+def imprimir_fibonacci(sequencia: list[int]) -> None:
+    """Imprime a sequência de Fibonacci no terminal."""
+    for numero in sequencia:
+        print(numero)
         time.sleep(0.08)
-        # Prints the computed next number of the Fibonacci
-        # sequence.
-        print(c)
-        # Updates the initial numbers to their new values.
-        b = a
-        a = c
 
+def main():
+    num_elementos = 10  # Número de elementos desejados na sequência
+    sequencia_fibonacci = gerar_fibonacci(num_elementos)
+    imprimir_fibonacci(sequencia_fibonacci)
 
-main()
+if _name_ == "_main_":
+    main()
+    
