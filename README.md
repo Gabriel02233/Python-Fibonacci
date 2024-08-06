@@ -1,26 +1,19 @@
-# Python-Fibonacci
-A simple python script that calculates &amp; prints the fibonacci sequence!
+Python-Fibonacci
+Um script python simples que calcula e imprime a sequência de Fibonacci!
 
-## What's the fibonacci sequence?
-The Fibonacci sequence is a series of numbers that starts with 0 and 1, and each subsequent number in the sequence is the sum of the two preceding ones. So, it goes like this:
+O que é a sequência de Fibonacci?
+A sequência de Fibonacci é uma série de números que começa com 0 e 1, e cada número subsequente na sequência é a soma dos dois precedentes. Então, é assim:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
-Broken down step by step:
+Dividido passo a passo:
 
-Start with 0 and 1.
-Add these two numbers together to get the next number in the sequence: 0 + 1 = 1.
-The next number is found by adding the last two numbers: 1 + 1 = 2.
-Again, add the last two numbers: 1 + 2 = 3.
-Repeat this process to generate the rest of the sequence.
-You can continue this indefinitely to generate more numbers in the Fibonacci sequence.
+Comece com 0 e 1. Some esses dois números para obter o próximo número na sequência: 0 + 1 = 1. O próximo número é encontrado somando os dois últimos números: 1 + 1 = 2. Novamente, some os dois últimos números: 1 + 2 = 3. Repita esse processo para gerar o restante da sequência. Você pode continuar isso indefinidamente para gerar mais números na sequência de Fibonacci.
 
-Mathematically, this can be expressed  with a recurrence relation like this:
+Matematicamente, isso pode ser expresso com uma relação de recorrência como esta:
 
-F(0) = 0
-F(1) = 1
-F(n) = F(n-1) + F(n-2) for n > 1
+F(0) = 0 F(1) = 1 F(n) = F(n-1) + F(n-2) para n > 1
 
-Here, F(n) represents the nth number in the Fibonacci sequence. So, to find any specific number in the sequence, this formula is used, provided the values of F(0) and F(1) are known. For example, to find F(5), calculate:
+Aqui, F(n) representa o n-ésimo número na sequência de Fibonacci. Então, para encontrar qualquer número específico na sequência, esta fórmula é usada, desde que os valores de F(0) e F(1) sejam conhecidos. Por exemplo, para encontrar F(5), calcule:
 
 F(5) = F(4) + F(3) = 3 + 2 = 5
